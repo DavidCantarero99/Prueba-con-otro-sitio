@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>APP DE GATOS</h2>
+    <main>
+      <h3>Imagenes de gatos</h3>
+      <!-- TODO: agregar imaganes de gatos -->
+
+      <!-- Ejemplo de como hacer un enlace externo -->
+      <p>
+        Haz click aqui para ver mas
+        <a
+          href="https://unsplash.com/es/s/fotos/Gatos"
+          target="_blank"
+          rel="noopener noreferrer"
+          >imagenes de gatos</a
+        >
+      </p>
+      <!-- fin del Ejemplo -->
+
+      <a href="https://www.freecodecamp.org/espanol/"
+        ><img
+          src="https://bit.ly/fcc-relaxing-cat"
+          alt="Gato naranja recostado sobre su espalda"
+      /></a>
+
+      <hr />
+      <h3>Listas de Gatos</h3>
+
+      <div>
+        <p>Cosas que los gatos <em>aman</em>:</p>
+        <!-- Lista no ordenada -->
+        <ul>
+          <li>Menta gatuna</li>
+          <li>Apuntadores láser</li>
+          <li>lasaña</li>
+        </ul>
+        <!-- fin de la lista no ordenada -->
+        <img src="images/lasana.jpg" alt="lasaña" />
+
+        <!-- Lista ordenada -->
+        <p>Cosas que los gatos <strong>Odian</strong>:</p>
+        <ol>
+          <li>Tratamientos Antipulgas</li>
+          <li>Truenos</li>
+          <li><s>Otros Gatos</s></li>
+        </ol>
+      </div>
+      <!-- Fin de la lista ordenada -->
+      <img src="images/gatp.jpg" alt="gato pequeño en una cama" />
+
+      <form action="">
+        <!-- Botones de radio -->
+        <label for="Interior"
+          ><input
+            id="Interior"
+            type="radio"
+            name="Interior-Exterior"
+            value="interior"
+          />Interior</label
+        >
+        <br />
+        <label for="Exterior"
+          ><input
+            id="Exterior"
+            type="radio"
+            name="Interior-Exterior"
+            value="exterior"
+          />Exterior</label
+        >
+        <!-- fin botones de radio -->
+
+        <!-- Checkbox -->
+        <br />
+        <label for="Carinoso"
+          ><input
+            id="Carinoso"
+            type="checkbox"
+            value="Carinoso"
+            name="personalidad"
+            checked
+          />Cariñoso</label
+        ><br />
+        <label for="Perezoso"
+          ><input
+            id="Perezoso"
+            type="checkbox"
+            value="Perezoso"
+            name="personalidad"
+          />Perezoso</label
+        ><br />
+        <label for="Energico"
+          ><input
+            id="Energico"
+            type="checkbox"
+            value="Energico"
+            name="personalidad"
+          />Enérgico</label
+        ><br />
+
+        <!-- fin checkbox -->
+
+        <!-- Texto y boton de enviar  -->
+        <input
+          type="text"
+          placeholder="Url de foto la foto de tu gato"
+          required
+        />
+        <br />
+        <button type="submit">enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p><small> Sin derecho de autor - <a href="#">freecodeCamp.org</a></small></p>
+    </footer>
+  </body>
+</html>
